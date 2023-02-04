@@ -28,3 +28,4 @@ for intent in intents['intents']:
             classes.append(intent['tag'])
 
 print(documents)
+print(documents)
