@@ -1,6 +1,36 @@
-{"intents": 
+{"intents":     [
    {"tag":  "greetings",
     "patterns": ["hello", "hey", "hi", "good morning", "good afternoon", "good evening", "good day", "hello there", "hi there", "yo", "whats up"],
     "responses": ["hello there", "good day too", "good afternoon", "good morning", "good evening", "hello, how may i help you", "yo whats good, how can i help"]
+    },
+
+    {"tag":  "goodbye",
+    "patterns": ["Im leaving", "see you around", "bye", "goodbye", "have a great day", "have a great evening", "im out", "catch you later", "im gone"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye", "See you around"]
+    },
+
+    {"tag":  "age",
+    "patterns": ["how old are you", "how old", "age", "how old is your owner"],
+    "responses": ["That is classified", "old enough"]
+    },
+
+    {"tag":  "name",
+    "patterns": ["your name", "who are you", "what is your name", "you are", "can i know your name", "whats your name"],
+    "responses": ["Natasha", "call me Natasha", "I am Natasha", "My name is Natasha"]
+    },
+
+    {"tag":  "Shop",
+    "patterns": ["what do you sell", "what are your products", "what is in shop", "what do you reccomend", "Id like to buy something", "Id like to buy", "I want to buy something", "I want to buy"],
+    "responses": ["We prepare and sell healthy food, all cousines and snacks", "I reccomend everything", "Healthy food and snacks"]
+    },
+
+    {"tag":  "location",
+    "patterns": ["where are you", "location", "located", "found", "where", "where are you located", "where are you found", "where can i find you"],
+    "responses": ["Everywhere, just a call away"]
+    },
+
+    {"tag":  "hours",
+    "patterns": ["what time do you open", "when are you open", "what time are you open", "when do you open shop"],
+    "responses": ["24/7"]
     }
-}
+]}
